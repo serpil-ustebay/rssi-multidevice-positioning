@@ -1,12 +1,10 @@
-RSSI Multi-Device Positioning
-
-Performance Evaluation of Wi-Fi Indoor Positioning by Regression-Based Coordinate Estimation in High-Density and Multi-Device Environments.
-
-📌 Overview
+Performance Evaluation of Wi-Fi Indoor Positioning by Regression-Based Coordinate Estimation in High-Density and Multi-Device Environments
 
 This repository contains the experimental implementation for evaluating Wi-Fi RSSI-based indoor positioning under device heterogeneity (antenna variability).
 
 The study investigates how device-specific antenna characteristics affect coordinate estimation accuracy using multiple regression-based models.
+
+
 
 The main focus is:
 
@@ -26,6 +24,8 @@ Feature engineering effects
 
 Coordinate-level accuracy analysis (not only distance)
 
+
+
 📂 Repository Structure
 File	Description
 Table1.py	5-Fold Cross-Validation (Joint X,Y regression)
@@ -33,6 +33,8 @@ Table2.py	Full Train → Test evaluation
 Table3_4.py	Coordinate-focused accuracy analysis (MAE_X, R²_X, etc.)
 Table5_6.py	Multi-scenario device heterogeneity analysis
 tuji_cv_common_joint.py	Shared CV configuration and joint regression utilities
+
+
 📊 Implemented Scenarios
 Scenario A – Device-Specific
 
